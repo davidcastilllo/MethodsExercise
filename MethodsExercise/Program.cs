@@ -2,10 +2,10 @@
 {
     public class Program
     {
-
+        
         static void Main(string[] args)
         {
-            //CreateStory();
+            CreateStory();
             Console.WriteLine(Sum(1, 1, 1, 1));
             Console.WriteLine(Subtract(10,1,1,1));
             Console.WriteLine(Multiply(2, 2, 2));
@@ -31,6 +31,8 @@
             Console.WriteLine($"Once there was a person named {userName} and they visited a zoo. At the zoo they saw a {userFavColor} {userFavAnimal}! The {userFavAnimal} was playing {userFavSport} and having a good time. ");
         }
 
+        //Syntax and logic is very similiar to Javascript which I already know
+        
         public static int Sum(params int[] numbers)
         {
             int total = 0;
